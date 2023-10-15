@@ -1,0 +1,84 @@
+.card{    
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    width: 100%;
+    min-height: 72px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.marked{
+    background-color: #262626;
+    border: 0;
+    margin-left: 19.27px;
+    margin-right: 15.27px;
+}
+.marked img{
+    width: 17.45px;
+    height: 17.45px;
+}
+
+.content{
+    color: #F2F2F2;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    width: 85%;
+    word-wrap: break-word;
+}
+
+.cardChecked{    
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    width: 100%;
+    min-height: 72px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contentChecked{
+    color: #808080;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    text-decoration: line-through;
+    width: 85%;
+    word-wrap: break-word;
+}
+
+.delete{
+    background-color: #262626;
+    border: 0;
+    margin-left: 18px;
+    margin-right: 21.52px;
+}
+.delete img{
+    width: 12.48px;
+    height: 14px;
+}

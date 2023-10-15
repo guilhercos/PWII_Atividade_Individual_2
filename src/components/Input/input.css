@@ -1,0 +1,58 @@
+#input{
+    margin-top: -28px;
+    display: flex;
+    justify-content: center;
+}
+
+#input form{
+    display: flex;
+}
+
+#input input{
+    border: 1px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#input form input[type=text]{
+    background-color: #262626;
+    border: 1px solid #0D0D0D;
+    height: 54px;
+    width: 638px;
+    margin-right: 8px;
+}
+#input form input[type=text]::placeholder{
+    size: 16px;
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    Line-height: 22.4px;
+}
+#input form input[type=text]:enabled{
+    color: #FFF;
+}
+
+#input form button[name=submit]{
+    background-color: #1E6F9F;
+    color: #F2F2F2;
+    padding: 16px;
+    height: 54px;
+    width: 90px;
+    border: 0;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#input form button[name=submit] img{
+    width: 16px;
+    height: 16px;
+    margin-left: 42px;
+    margin-top: -18px;
+    align-items: center;
+    display: flex;
+}

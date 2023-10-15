@@ -1,0 +1,28 @@
+#noTask{
+    border-top: 1px solid #333333;
+    width: 736px;
+    height: 172px;
+    padding: 64px, 24px, 64px, 24px;
+    border-radius: 8px;
+}
+
+#noTask p:nth-child(1){
+    margin-top: 64px;
+    color: #808080;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#noTask p:nth-child(2){
+    color: #808080;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
