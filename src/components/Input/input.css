@@ -46,6 +46,7 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+    cursor: pointer;
 }
 
 #input form button[name=submit] img{
